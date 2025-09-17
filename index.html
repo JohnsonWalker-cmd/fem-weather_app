@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Weather app</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js defer"></script>
+</head>
+<body>
+  <a href="#main" class="visually-hidden skip-link">Skip to main content</a>
+
+  <header class="header wrapper">
+      <div class="header__content">
+        <a href="/" class="header__homelink">
+          <img src="/assets/images/logo.svg" alt="Weather Now Home" class="header__logo" width="197" height="40">
+        </a>
+        <select name="units" id="ddlUnits" class="dropdown header__dropdown">
+          <option value="">Units</option>
+          <option value="C">&deg;C</option>
+          <option value="F">&deg;F</option>
+        </select>
+      </div>
+  </header>
+
+  <main id="main" class="main wrapper">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero_title">How's the sky looking today?</h1>
+          <div class="hero__search">
+            <input type="text" name="search" id="txtSearch" placeholder="Search for a place..." class="hero__textbox">
+            <button type="submit" class="hero__button" id="btnSearch">Search</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="dashboard">
+
+      </div>
+  </main>
+ 
+</body>
+</html>
