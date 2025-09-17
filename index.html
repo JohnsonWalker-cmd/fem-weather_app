@@ -39,6 +39,88 @@
       </section>
 
       <div class="dashboard">
+        <section class="current">
+          <h2 class="visually-hidden">Current Location Temperature</h2>
+
+
+          <div class="current__weather">
+            <div class="current__location">
+                <div id="dvCityCountry" class="current__city">Berlin , Germany</div>
+                <div id="dvCurrDate" class="current__date">Tuesday, Aug 5, 2025</div>
+            </div>
+            <div class="current__info">
+                <img src="./assets/images/icon-sunny.webp" alt="" width="320" height="320" class="current__icon">
+                <div class="current__temp"><span id="dvCurrTemp">20</span>&deg;</div>
+            </div>
+          </div>
+
+          <div class="current__conditions">
+              <div class="block current__condition">
+                <p class="current__condition-title">Feels like</p>
+                <p class="current__condition-value"><span id="pFeelsLike"></span>&deg;</p>
+              </div>
+              <div class="block current__condition">
+                <p class="current__condition-title">Humidity</p>
+                <p class="current__condition-value"><span id="pHumidity"></span>%</p>
+              </div>
+              <div class="block current__condition">
+                <p class="current__condition-title">Wind</p>
+                <p class="current__condition-value" id="pWind"></p>
+              </div>
+              <div class="block current__condition">
+                <p class="current__condition-title">Precipitation</p>
+                <p class="current__condition-value" id="pPrecipitation"></p>
+              </div>
+          </div>
+        </section>
+
+        <section class="daily">
+            <h2 class="section__title daily__title">Daily forecast</h2>
+            <div class="daily__forecast">
+              <div id="dvForecastDay1" class="block daily__day"></div>
+              <div id="dvForecastDay2" class="block daily__day"></div>
+              <div id="dvForecastDay3" class="block daily__day"></div>
+              <div id="dvForecastDay4" class="block daily__day"></div>
+              <div id="dvForecastDay5" class="block daily__day"></div>
+              <div id="dvForecastDay6" class="block daily__day"></div>
+              <div id="dvForecastDay7" class="block daily__day"></div>
+            </div>
+        </section>
+
+        <section class="hourly">
+            <div class="hourly__content">
+              <div class="hourl__header">
+                <h2 class="section__title hourly__title">Hourly forecast</h2>
+                <select name="hourly__select" id="ddlDay" class="dropdown hourly__select"></select>
+              </div>
+              <div class="hourly__hours">
+                <div id="dvForecastHour1" class="hourly__hour"></div>
+                <div id="dvForecastHour2" class="hourly__hour"></div>
+                <div id="dvForecastHour3" class="hourly__hour"></div>
+                <div id="dvForecastHour4" class="hourly__hour"></div>
+                <div id="dvForecastHour5" class="hourly__hour"></div>
+                <div id="dvForecastHour6" class="hourly__hour"></div>
+                <div id="dvForecastHour7" class="hourly__hour"></div>
+                <div id="dvForecastHour8" class="hourly__hour"></div>
+                <div id="dvForecastHour9" class="hourly__hour"></div>
+                <div id="dvForecastHour10" class="hourly__hour"></div>
+                <div id="dvForecastHour11" class="hourly__hour"></div>
+                <div id="dvForecastHour12" class="hourly__hour"></div>
+                <div id="dvForecastHour13" class="hourly__hour"></div>
+                <div id="dvForecastHour14" class="hourly__hour"></div>
+                <div id="dvForecastHour15" class="hourly__hour"></div>
+                <div id="dvForecastHour16" class="hourly__hour"></div>
+                <div id="dvForecastHour17" class="hourly__hour"></div>
+                <div id="dvForecastHour18" class="hourly__hour"></div>
+                <div id="dvForecastHour19" class="hourly__hour"></div>
+                <div id="dvForecastHour20" class="hourly__hour"></div>
+                <div id="dvForecastHour21" class="hourly__hour"></div>
+                <div id="dvForecastHour22" class="hourly__hour"></div>
+                <div id="dvForecastHour23" class="hourly__hour"></div>
+                <div id="dvForecastHour24" class="hourly__hour"></div>
+              </div>
+            </div>
+        </section>
 
       </div>
   </main>

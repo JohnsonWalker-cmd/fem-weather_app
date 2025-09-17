@@ -16,7 +16,7 @@ dropdownArrow.addEventListener("click" , () =>{
   }
 });*/
 
-const SearchBtn = document.getElementById("searchBtn");
+/*const SearchBtn = document.getElementById("searchBtn");
 
 SearchBtn.addEventListener("click" , async(e) => {
     e.preventDefault();
@@ -344,10 +344,10 @@ async function getCity(city){
       });
       
 
-    }
+    }*/
     
 
-  displayHourlyforecast(FinalData.hourly , FinalData.daily.time);
+  /*displayHourlyforecast(FinalData.hourly , FinalData.daily.time);
 
   }catch (error) {
     console.log('Error fetching data:' , error);
