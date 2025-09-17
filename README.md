@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Weather app
 
 ![Design preview for the Weather app coding challenge](./preview.jpg)
@@ -100,3 +101,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# fem-weather_app
+>>>>>>> a505a8efc1260bb2ced00c15ca63c5f44d65d2dd
